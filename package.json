@@ -13,8 +13,12 @@
     "prepare": "husky"
   },
   "lint-staged": {
-    "*.{ts,tsx,js,jsx}": ["eslint --fix"],
-    "*.{ts,tsx,js,jsx,json,md}": ["prettier --write"]
+    "*.{ts,tsx,js,jsx}": [
+      "eslint --fix"
+    ],
+    "*.{ts,tsx,js,jsx,json,md}": [
+      "prettier --write"
+    ]
   },
   "dependencies": {
     "@react-native/new-app-screen": "0.83.1",

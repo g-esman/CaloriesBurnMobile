@@ -15,4 +15,3 @@
   },
   "include": ["src", "index.ts", "index.tsx", "App.tsx"]
 }
-
