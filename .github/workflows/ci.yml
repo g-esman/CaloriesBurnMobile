@@ -20,6 +20,13 @@ jobs:
           node-version: 20
           cache: npm
 
+      - name: Create env for CI
+        run: |
+          cat << EOF > .env
+          APP_ENV=development
+          API_BASE_URL=http://localhost:3000
+          EOF
+
       - name: Install deps
         run: npm ci
 
